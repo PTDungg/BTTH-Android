@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int a = Integer.parseInt(edtA.getText().toString());
                 int b = Integer.parseInt(edtB.getText().toString());
-                int c = a+b;
-                edtKQ.setText(c+"");
+                int c = a + b;
+                edtKQ.setText(c + "");
             }
         });
     }
